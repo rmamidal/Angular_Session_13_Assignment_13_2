@@ -34,7 +34,7 @@ import { AuthGuardComponent } from "./AuthGuard/auth-guard"
     ReactiveFormsModule,
     RouterModule.forRoot(ApplicationRoutes),
   ],
-  providers: [AuthGuardComponent],
+  providers: [AuthGuardComponent], // AuthGuardComponent Provider.
   bootstrap: [AppComponent]
 })
 export class AppModule { }

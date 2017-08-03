@@ -33,7 +33,7 @@ export class LoginComponent {
     validateUser() {
         let authourisedUser = this._userService.validateUser(this.currentUser);
         if(authourisedUser) {
-            this._router.navigate(["\ListMovie"]);
+            this._router.navigate(["\ListMovie"]); // Navigate to List movie id user authourised.
         }
     }
 }
